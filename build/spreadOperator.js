@@ -1,4 +1,5 @@
-'use strict'
+'use strict';
+
 console.log('/********SpreadOperator**********/');
 function foo(one, two, three) {
   console.log(one);
@@ -6,8 +7,8 @@ function foo(one, two, three) {
   console.log(three);
 }
 
-var arr = [0,1,2];
+var arr = [0, 1, 2];
 //foo.apply(null, arr);
-foo(...arr);
+foo.apply(undefined, arr);
 
 console.log('/********End SpreadOperator**********/');

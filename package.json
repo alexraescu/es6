@@ -16,10 +16,11 @@
     "url": "https://github.com/alexraescu/es6/issues"
   },
   "devDependencies": {
-    "gulp": "~3.9.1",
-    "browser-sync": "~2.16.0",
-    "gulp-babel": "~6.1.2",
     "babel-preset-es2015": "~6.14.0",
-    "gulp-clean": "~0.3.2"
+    "browser-sync": "~2.16.0",
+    "gulp": "~3.9.1",
+    "gulp-babel": "~6.1.2",
+    "gulp-clean": "~0.3.2",
+    "gutil": "^1.6.4"
   }
 }
